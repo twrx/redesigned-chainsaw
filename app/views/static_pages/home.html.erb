@@ -1,2 +1,132 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>
+                Dortmund
+            </title>
+            
+            <style>
+                
+                div#header {font-size: 48px;
+                text-align: center;
+               position: fixed;
+               width: 50%;
+               height: 6%;
+               font-size: 48px;
+               z-index: 100;
+               background-color: yellow;
+               margin-left: 470px;}
+                
+                body {background-color: black;}
+                
+            div#container{position: relative;
+                background-color: yellow;
+                width: 1000px;
+                height: 1000px;
+                margin-left: auto;
+                margin-right: auto;
+                z-index: 10;}
+                
+                div#right {position: absolute;
+                background-color: black;
+                width: 500px;
+                height: 495px;
+                float: left;
+                margin-left: 500px;
+                z-index: 10;
+                overflow: hidden;}
+                
+                div#left {position: absolute;
+                background-color: black;
+                width: 495px;
+                height: 495px;
+                float: left;
+                margin-right: 495px;
+                z-index: 10;
+                overflow: hidden;}
+                
+                div#botleft{position: absolute;
+                background-color: black;
+                width: 495px;
+                height: 495px;
+                float: left;
+                clear: both;
+                margin-top: 500px;
+                z-index: 10;
+                overflow: hidden;;
+                }
+                
+                div#botright{position: absolute;
+                background-color: black;
+                width: 500px;
+                height: 495px;
+                float: left;
+                clear: both;
+                margin-top: 500px;
+                margin-left: 500px;
+                z-index: 10;
+                overflow: hidden;}
+                
+                div#center {position: absolute;
+                background-color: yellow;
+                height: 250px;
+                width: 250px;
+                margin-left: 375px;
+                margin-right: 250px;
+                margin-top: 375px;
+                margin-bottom: 250px;
+                z-index: 20;
+                }
+                
+            </style>
+        </head>
+        
+        <body>
+            
+         <div id="header">Borussia Dortmund</div>
+         
+         <div id="container">
+            
+            
+            
+            <div id="left">
+               <img src="/images/1.jpg" alt="Reus" align="right">
+            </div>
+            
+            <div id="right">
+                <img src="/images/2.jpg" alt="Keeper" align="right"> 
+            </div>
+            
+            <div id="botleft">
+                <img src="/images/3.jpg" alt="Celebration" align="right">
+            </div>
+            
+            <div id="botright">
+                <img src="/images/4.jpg" alt="Team">
+            </div>
+            
+            <div id="center">
+                <img src="/images/logo.jpg" alt="TeamLogo">
+            </div>
+            
+            
+         </div>
+            
+            <p>
+       <a href="#top">Back to Top</a>  
+            </p>
+            <p>
+       <a href="index">
+          Back to Index
+        </a>
+       
+       
+        </p>
+
+        
+        
+        
+        
+        </body>
+    </html>
